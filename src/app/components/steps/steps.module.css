@@ -1,0 +1,107 @@
+/* styling for eighth section */
+.steps {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 180px; 
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.stepContainer {
+    display: inline-block;
+    justify-content: center;
+    margin-bottom: 40px; 
+}
+
+.numb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px; 
+}
+
+.numb img {
+    width: 50px;
+    height: auto;
+}
+
+.stepsbox1, .stepsbox2, .stepsbox3 {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    border: 1px solid black;
+    background-color: #ffffff; 
+    width: 250px;
+    height: 150px; 
+    box-sizing: border-box; 
+}
+.stepsbox1, .stepsbox2, .stepsbox3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    border: 1px solid black;
+    position: relative;
+    background-color: #ffffff; 
+    width: 250px; 
+    height: 250px; 
+    box-sizing: border-box; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+.stepText {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.5px;
+    text-align: justify;
+    max-width: 200px; 
+    overflow-wrap: break-word; /* Break long words to fit within the box */
+    text-overflow: ellipsis; /* Add ellipsis for text overflow */
+    display: -webkit-box; /* For multi-line truncation */
+    -webkit-box-orient: vertical;
+    overflow: hidden; 
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .steps {
+        flex-direction: column; 
+        align-items: stretch; /* Align items to stretch */
+        gap: 20px; 
+        justify-content: center;
+    }
+
+    .numb {
+        margin-bottom: 10px; 
+    }
+
+    .stepsbox {
+        width: 100%; 
+        justify-content: center;
+    }
+
+    .stepsbox1, .stepsbox2, .stepsbox3 {
+        flex-direction: column;
+        padding: 15px; 
+        margin-bottom: 20px; 
+       align-items: center;
+       transform: translateX(180px);
+        
+    }
+
+    .stepImage {
+        position: static; 
+        margin-bottom: 10px; 
+        width: 30px; 
+    }
+
+    .stepText {
+        margin-top: 0; 
+        text-align: left; 
+    }
+}

@@ -1,0 +1,301 @@
+/* styling for first section */
+.icons {
+    display: flex;
+    justify-content: flex-end; 
+    position: absolute; 
+    padding-right: 90px;
+    margin: 0; 
+    
+}
+
+
+
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding-top: 25px ;
+    padding-right:50px;
+    position: relative; 
+    
+}
+
+.stack {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    gap: 16px;
+    position: absolute;
+    font: poppins;
+    padding-bottom: 20px;
+    padding-top: 80px;
+  
+}
+
+.smallText {
+    text-align: right; 
+    font-size: 13px; 
+    padding-top: 0px;
+    cursor: pointer;
+   
+}
+
+.profileBtn {
+    border: none;
+    cursor: pointer; 
+}
+
+
+.icons a {
+    padding-right: 10px; 
+    font-size: 10px;
+
+
+}
+
+
+.navLinks {
+    display: flex;
+    justify-content: flex-start; 
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 70px; 
+}
+
+.navLinks a {
+    padding-left: 10px; 
+    color: black;
+    text-decoration: none; 
+    font-size: 15px;
+}
+
+
+
+.logoContainer {
+    flex-shrink: 0; /* Prevent logo from shrinking */
+    padding-left: 80px;
+    width:100%;
+}
+
+
+/* Hamburger Menu Icon */
+.hamburger {
+    display: none; 
+    cursor: pointer;
+}
+
+/* Menu Items */
+.menu {
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu.open {
+    display: flex; /* Show menu when open */
+}
+
+
+.loginBtn {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block; /* Show hamburger on mobile */
+    }
+    
+    .menu {
+        display: none; 
+    }
+
+    .menu.open {
+        display: flex; 
+    }
+    
+    .navLinks, .icons {
+        display: none; 
+    }
+    .menu.open {
+        display: flex; 
+    }
+    
+   
+    .loginBtn {
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
+
+/* Hide Hamburger in Desktop View */
+@media (min-width: 769px) {
+    .hamburger {
+        display: none; /* Hide hamburger on desktop */
+    }
+    
+    .menu {
+        display: none; /* Hide menu on desktop */
+    }
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-right: 5px;
+    position: relative;
+}
+
+.logoContainer {
+    flex-shrink: 0;
+    padding-left: 80px;
+    width: 100%;
+}
+
+.hamburgerMenu {
+    font-size: 30px;
+    cursor: pointer;
+    display: none; /* Hidden on desktop view */
+}
+
+.stack {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+    position: absolute;
+    font: poppins;
+    padding-left: -400px;
+    padding-bottom: 20px;
+    padding-top: 80px;
+   max-width: fit-content; 
+}
+
+.stack.menuOpen {
+    display: block;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.icons a {
+    padding-right: 10px;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    padding-top: 40px;
+}
+
+.navLinks a {
+    padding-left: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* Responsive styling for mobile view */
+@media (max-width: 768px) {
+   
+
+
+    .stack {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: white;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        padding: 20px; 
+    }
+
+    .stack.menuOpen {
+        display: flex;
+    }
+
+    .navLinks {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+    }
+
+    .navLinks a {
+        padding: 10px 0;
+    }
+
+    .icons {
+        display:none;
+        justify-content: flex-start;
+    }
+
+    .bell{
+        display: none;
+    }
+
+    .jon{
+        display: none;
+    }
+
+     .smallText{
+         display: block; 
+    } 
+  
+    .logoContainer {
+        width: 20%;
+        max-width: 100%; 
+        height: auto;
+        position: relative; /* Set to relative to align with navbar */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .hamburgerMenu {
+        display: inline-block;
+        position: absolute;
+        right: 20px; 
+        top: 50%;
+        transform: translateY(-50%); 
+        cursor: pointer;
+        /* z-index: 10; */
+    }
+    
+    .navbar {
+        position: relative;
+        display: flex;
+        width: 100%; /* Full width for proper alignment */
+        align-items: center;
+        justify-content: space-between; /* Space between logo and hamburger */
+    }
+    
+}
+

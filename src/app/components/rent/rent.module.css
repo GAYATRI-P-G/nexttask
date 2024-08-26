@@ -1,0 +1,21 @@
+/* styling for seventh section */
+.rent {
+    width: 100%; /* Full width within the parent container */
+    max-width: 518px; /* Maximum width to prevent stretching too wide */
+    height: 51px;
+    margin: 0 auto; 
+    margin-top: 50px; 
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 51px;
+    text-align: center;
+    color: #000000;
+    opacity: 1; /* Ensure visibility */
+}
+
+@media (max-width: 768px) {
+    .rent {
+        margin-top: 130px; 
+    }
+}

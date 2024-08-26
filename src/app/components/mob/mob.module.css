@@ -1,0 +1,134 @@
+/* banner mobile view styles*/
+@media (max-width: 768px) { 
+    .quickBookMobile {
+      text-align: center;
+    }
+  
+    .bookDropdownMenu {
+      display: flex;
+      justify-content: center;
+      margin: 16px;
+    }
+  
+    .bookACar {
+      background-color: #E21E26;
+      border: none;
+      color: white;
+      border-radius: 8px;
+      width: 160px;
+      font-size: 13px;
+      font-weight: 600;
+      text-align: center;
+      height: 38px;
+      margin-right: 8px;
+    }
+  
+    .bookACar:hover {
+      background-color: #b6171c;
+    }
+  
+    .bookQuick {
+      background-color: transparent;
+      border: 2px solid #E21E26;
+      color: #E21E26;
+      border-radius: 8px;
+      width: 160px;
+      font-size: 13px;
+      font-weight: 600;
+      text-align: center;
+      height: 38px;
+    }
+  
+    .bookQuick:hover {
+      background-color: rgb(219, 219, 219);
+    }
+  
+    .bookTabs {
+      display: none;
+    }
+  
+    .bookTabs.active {
+      display: block;
+    }
+  
+    .bookTabsList {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .tabsLiMv {
+      margin-right: 10px;
+    }
+  
+    .tabsLiMv a {
+      text-decoration: none;
+      color: black;
+      font-size: 13px;
+      font-weight: 400;
+      padding: 4px;
+    }
+  
+    .tabsLiMv a:hover {
+      color: black;
+      font-weight: 500;
+      border-bottom: 1px solid black;
+    }
+  
+    .vehicleSelectmv {
+      padding: 16px;
+      background-color: #F6F7F9;
+      border: none;
+      border-radius: 8px;
+    }
+  
+    .quickBookmobileInput {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      justify-content: flex-start;
+      margin-top: 20px;
+    }
+  
+    .quickBookLi {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .pickupSelectmv, .dropOffLocation, .pickupDate, .dropOffDate {
+      padding: 10px;
+      width: 100%;
+      max-width: 300px; /* Adjust as needed */
+      margin-bottom: 10px;
+      background-color: #F6F7F9;
+      border: none;
+      border-radius: 8px;
+    }
+
+    .pickupDate, .dropOffDate,.pickupSelectmv, .dropOffLocation {
+        padding-left: 50px;
+    }
+  .pickupDate{
+    margin-bottom: 5px;
+  }
+    .quickbookSearch {
+      background-color: #E21E26;
+      border: none;
+      color: white;
+      border-radius: 4px;
+      width: 160px;
+      font-size: 13px;
+      font-weight: 600;
+      text-align: center;
+      height: 38px;
+      margin: 16px auto;
+      display: block;
+    }
+  }
+  

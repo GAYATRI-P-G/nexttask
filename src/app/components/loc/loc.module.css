@@ -1,0 +1,87 @@
+/* styling for ninth section */
+.lastloc {
+    width: 100%;
+    max-width: 1500px;
+    height: 325px;
+    background: #000000;
+    margin: 100px auto;
+    position: relative;
+    padding: 20px;
+}
+
+#lastloc1 {
+    width: 100%;
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 51px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.lastloc2 {
+    display: flex;
+    justify-content: center;
+}
+
+.locationsList {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+.locationItem {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.locationItem img {
+    width: 24px;
+    height: 24px;
+}
+
+.locationSeparator {
+    width: 1px;
+    height: 50px;
+    background-color: rgba(227, 220, 220, 0.285);
+}
+
+.lastloc2 span {
+    color: #FFFFFF;
+    font-family: poppins;
+    font-size: 18.81px;
+    font-weight: 600;
+    line-height: 25.62px;
+}
+
+.lastloc2 span a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .lastloc {
+        padding: 10px;
+        height: auto;
+    }
+
+    #lastloc1 {
+        font-size: 28px;
+    }
+
+    .locationsList {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .locationSeparator {
+        display: none;
+    }
+}

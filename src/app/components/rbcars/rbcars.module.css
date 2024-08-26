@@ -1,0 +1,188 @@
+/* styling for fifth section */
+.twocarsContainer {
+    overflow-x: auto; /*scroll */
+    overflow-y: none;
+    padding-bottom: 10px; 
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    width: calc(100% - 20px);
+  }
+  
+  .twocars {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .car1 {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .carin1 {
+    display: flex;
+    width: 360px;
+    height: 290px;
+    margin-left: 81px;
+    gap: 0px;
+  }
+  
+  .car1text1 {
+    width: 248px;
+    height: 42px;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: left;
+    color: #1A202C;
+    margin-left: 40px;
+    margin-right: 106px;
+    margin-top: 25px;
+  }
+  
+  .car1text2 {
+    margin-left: 42px;
+    margin-right: 54px;
+    margin-top: -25px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18.5px;
+    text-align: left;
+    color: #000000;
+    width: 298px;
+    height: 37px;
+  }
+  
+  .car1text3 {
+    width: 300px;
+    height: 17px;
+    margin-right: 53px;
+    margin-left: 40px;
+    margin-top: 75px;
+  }
+  
+  .car1text4 {
+    display: flex;
+    gap: 32px;
+    margin-left: 40px;
+    margin-top: 45px;
+    margin-bottom: 29px;
+  }
+  
+  #car1text41 {
+    font-family: Poppins;
+    width: 152px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+  }
+  
+  #car1text42 {
+    width: 120px;
+    height: 37px;
+    padding: 0px 20px;
+    border-radius: 4px;
+    background: #E21E26;
+    border: none;
+    color: #FFFFFF;
+  }
+  
+  #car1text42 a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  .car2 {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .carin2 {
+    display: flex;
+    width: 360px;
+    height: 290px;
+    margin-left: 81px;
+    gap: 0px;
+  }
+  
+  .car2text1 {
+    width: 248px;
+    height: 42px;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: left;
+    color: #1A202C;
+    margin-left: 40px;
+    margin-right: 106px;
+    margin-top: 25px;
+  }
+  
+  .car2text2 {
+    margin-left: 42px;
+    margin-right: 54px;
+    margin-top: -25px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18.5px;
+    text-align: left;
+    color: #000000;
+    width: 298px;
+    height: 37px;
+  }
+  
+  .car2text3 {
+    width: 300px;
+    height: 17px;
+    margin-right: 53px;
+    margin-left: 40px;
+    margin-top: 75px;
+  }
+  
+  .car2text4 {
+    display: flex;
+    gap: 32px;
+    margin-left: 40px;
+    margin-top: 45px;
+    margin-bottom: 29px;
+  }
+  
+  #car2text41 {
+    font-family: Poppins;
+    width: 152px;
+    height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+  }
+  
+  #car2text42 {
+    width: 120px;
+    height: 37px;
+    padding: 0px 20px;
+    border-radius: 4px;
+    background: #E21E26;
+    border: none;
+    color: #FFFFFF;
+  }
+  .car1text42, .car2text42 {
+    width: 120px;
+    height: 37px;
+    padding: 0px 20px;
+    border-radius: 4px;
+    background: #E21E26; /* Red color */
+    border: none;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .car1text42 a, .car2text42 a {
+    color: #FFFFFF; 
+    text-decoration: none; 
+  }
+  

@@ -1,0 +1,73 @@
+/* third section styling */
+.imageContainer {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  width: 100%;
+  height: 405px;
+  margin-top: 10px;
+  border-radius: 23px;
+  position: relative;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; 
+  transition: background-image 0.5s ease-in-out;
+}
+
+.textContainer {
+  color: #ffffff;
+  text-align: center;
+  width: auto; 
+  position: absolute; 
+  bottom: 60px; /* Position the text container 20px from the bottom */
+  transform: translateX(0); /* Remove translateX to center the text */
+  margin: 0; 
+}
+
+.textContainer p {
+  font-family: Poppins;
+  font-size: 18.37px;
+  font-weight: 400;
+  line-height: 26.91px;
+  color: #ffffff;
+}
+
+.greenButton {
+  width: 153px;
+  height: 31.49px;
+  border-radius: 32px;
+  background: #009046;
+  padding: 10px;
+  border: none;
+  font-family: Poppins;
+  font-size: 15.22px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 10px; 
+}
+
+.circleContainer {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 2; /* Ensure the circleContainer is on top of the image */
+}
+
+.circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  border: none;
+  cursor: pointer;
+}
+
+.circle.active {
+  background-color: gray;
+}
