@@ -15,7 +15,7 @@ const Subs = () => {
           <input className={styles.subs2} id="subs2" type="email" name="Email" placeholder="Email" />
         </div>
         <p className={styles.subs3}>
-          Don't miss out! Enter your email and your name, then hit subscribe to unlock a world of special offers and details.
+          Don&apos;t miss out! Enter your email and your name, then hit subscribe to unlock a world of special offers and details.
         </p>
         <button className={styles.subsbutton}>
           <Link href="#">Subscribe</Link>
