@@ -3,7 +3,9 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from './ThirdSection.module.css';
+// import styles from './ThirdSection.module.css';
+import styles from './thirdsection.module.css';
+
 
 // Array of image paths used for background images in the slider
 const images = [
